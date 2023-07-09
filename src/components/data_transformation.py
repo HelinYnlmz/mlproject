@@ -16,7 +16,7 @@ from src.utils import save_object
 
 @dataclass #use when need to store only vars, it saves time&space
 class DataTransformationConfig: #this config will give me any path that I will probably be requiring any inputs
-    preprocessor_obj_file_path=os.path.join('artifact',"preprocessor.pk1")
+    preprocessor_obj_file_path=os.path.join('artifacts',"preprocessor.pkl")
 
 class DataTransformation:
     def __init__(self):
